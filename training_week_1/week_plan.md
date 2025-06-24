@@ -29,7 +29,7 @@
 
 - **Теория (3 часа/день)**:
     - Повторение типов данных, функций, классов
-    - Изучение list/dict comprehensions, lambda функций
+    - Повторение list/dict comprehensions, lambda функций
     - Работа с исключениями и файлами
 - **Практика (5 часов/день)**:
     - Решение задач на Codewars, HackerRank, leetcode
