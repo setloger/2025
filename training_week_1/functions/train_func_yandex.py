@@ -26,7 +26,7 @@ def calc_cube(side):
 # а она уже вызовет две вспомогательные
 calc_cube(3)
 
-
+# --------------------
 
 import datetime as dt
 
