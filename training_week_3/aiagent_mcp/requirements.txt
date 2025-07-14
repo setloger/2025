@@ -1,0 +1,4 @@
+# requirements.txt
+fastmcp==0.1.0
+anthropic==0.21.3
+mcp==0.1.0
