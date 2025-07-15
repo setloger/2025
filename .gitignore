@@ -18,6 +18,4 @@ __pycache__/
 .idea/
 
 # Дирректория проекта
-
-/project_simple_logging
-/training_week_4/project_simple_logging/
+/training_week_4/project_simple_logging/markdown_files/
