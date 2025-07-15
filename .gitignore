@@ -1,5 +1,6 @@
 /git-training
 /github-clone
+
 # Виртуальные окружения
 venv/
 .venv/
@@ -15,3 +16,7 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Дирректория проекта
+
+/project_simple_logging
