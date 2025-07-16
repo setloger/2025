@@ -277,6 +277,7 @@ def complex_typed_function(numbers: list[int], operation: str = "sum") -> float:
     else:
         raise ValueError("Неизвестная операция")
 
+
 print("=== АННОТАЦИИ ТИПОВ ===")
 result = typed_function("Анна", 25)
 print(result)
