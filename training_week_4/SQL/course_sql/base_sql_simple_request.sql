@@ -239,3 +239,12 @@ INTERSECT
 SELECT country
 FROM suppliers
 
+-- 30 EXCEPT оператор EXCEPT используется для получения разности двух 
+-- наборов данных — то есть возвращает строки из первого запроса, которых 
+-- нет во втором. Это как “минус” между результатами двух SELECT
+
+SELECT country
+FROM customers
+EXCEPT
+SELECT country
+FROM suppliers
