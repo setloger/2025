@@ -28,4 +28,21 @@ class ConsoleHandler(LogHandler):
         timestamp = log_record['timestamp']
         message = log_record['message']
 
+        if self.colored:
+            color = self.colors.get(level, '')
+            reset = self.colors['RESET']
+            output = f'{color}[{timestamp}] {level}: {message}{reset}'
+        else:
+            output = f'[{timestamp}] {level}: {message}'
+
+        if log_record['extra']:
+            extra_str = ' | '.join([f'{k}={v}' for k,v in log_record['extra'].items()])
+            output += f' | {extra_str}'
+
+        print(output) 
+
+    
+
+
+
 
