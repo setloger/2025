@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # SQL JOIN — Типы и Примеры
 
 **Уровень неопределённости:** 0.05 (очень низкий). Тема хорошо документирована и не требует дополнительных уточнений.
